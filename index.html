@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>devmentor.pl - HTML &amp; CSS, menu dropdown</title>
+    
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/base.css">
+</head>
+<body>
+
+    <ul class="nav">
+        <li class="nav__item nav__item--no-space">
+            <a class="nav__link" href="#">start</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="#">portfolio</a>
+            <ul class="nav__dropdown dropdown">
+                <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">www</a>    
+                </li>
+                <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">app</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="#">kontakt</a>
+        </li>
+    </ul>
+
+</body>
+</html>
